@@ -1,0 +1,58 @@
+.stories-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stories-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stories-header h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  margin: 0;
+}
+
+.stories-content {
+  text-align: center;
+}
+
+.video-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.stories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.story h2 {
+  font-size: 2rem;
+  color: #9d2b48;
+  margin-bottom: 10px;
+}
+
+.story p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.story .story_text {
+  color: black;
+}

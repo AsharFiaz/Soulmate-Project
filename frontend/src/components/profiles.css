@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff; /* White background for the whole page */
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Navbar */
+header,
+nav {
+  width: 100%;
+  background-color: #d32f2f; /* Red color */
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Profiles Section */
+.profiles-container {
+  background-color: #ffffff; /* White background for the section */
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.heading-container {
+  color: whitesmoke; /* Red color for the heading */
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #d32f2f;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: black; /* Red color for cards */
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  color: white; /* White text inside cards */
+  padding: 20px;
+  width: 300px;
+  max-width: 100%;
+  text-align: left;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.profile-card div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.profile-card div span {
+  font-weight: bold;
+  color: #ffe082; /* Light yellow for highlighted text */
+}
+
+.profile-card .separator {
+  border-top: 1px solid #ffe082; /* Light yellow separator */
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
+/* No Profiles */
+.no-profiles {
+  color: #d32f2f; /* Red color for no profiles text */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Buttons */
+.profile-card button {
+  background-color: white; /* White button background */
+  color: #d32f2f; /* Red text on the button */
+  border: 1px solid #d32f2f;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.profile-card button:hover {
+  background-color: #d32f2f;
+  color: white; /* Switch to white text on red background */
+}

@@ -1,0 +1,62 @@
+.contact-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h1 {
+  font-size: 3rem;
+  color: aliceblue;
+  margin: 0;
+}
+
+.contact-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-details,
+.contact-consultants {
+  margin-bottom: 30px;
+}
+
+.contact-details .office,
+.contact-consultants ul {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.contact-details .office h2,
+.contact-consultants h2 {
+  font-size: 2rem;
+  color: #9d2b48;
+  margin-bottom: 10px;
+}
+
+.contact-details .office p,
+.contact-consultants ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-consultants ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-details .office p {
+  color: black;
+}
